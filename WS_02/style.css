@@ -1,0 +1,18 @@
+body {
+    background-color: #89b9e4;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+.content-box {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}

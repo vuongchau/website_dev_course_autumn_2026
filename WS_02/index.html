@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    h1 {
+        color: darkblue;
+        text-align: center;
+        background-color: lightblue;
+    }
+    h5 {
+        color: rgb(221, 113, 25);
+        font-size: 36px;
+    }
+    h2,h3,h4 {
+        color: darkblue;
+        font-size: 24px;
+    }
+    .profile-image {
+        display: block;
+        margin: 20px auto 0;
+    }
+    .contact-form {
+        padding: 15px;
+        background-color: white;
+        border: 1px solid gray;
+        width: 300px;
+    }
+    .contact-form input {
+        margin: 5px 0 10px;
+        padding: 5px;
+    }
+    .simple-table {
+        border-collapse: collapse;
+        background-color: white;
+    }
+    .simple-table th,
+    .simple-table td {
+        padding: 8px;
+        border: 1px solid gray;
+        text-align: left;
+    }
+    .simple-table th {
+        color: white;
+        background-color: darkblue;
+    }
+</style>
+</head>
+<body>
+        <h1>Welcome to Chau's Page</h1>
+        <p style="color: rgb(25, 104, 173);font-size: 36px;text-align: center;">I am a Salesforce Administrator with a passion for creating innovative solutions.</p>
+        <img class="profile-image" src="CV PIC.jpg" alt="Chau Vuong professional profile portrait" width="500" height="500">
+        <h2>My top favorite travelling destinations</h2>
+    <ol style="list-style-type: upper-roman;">
+        <li>Japan</li>
+        <li>Canada</li>
+        <li>Australia</li>
+    </ol>
+    
+    <h2>My hobbies</h2>
+    <ul style="list-style-type: circle;">
+        <li>Cooking</li>
+        <li>Reading</li>
+        <li>Watching movies</li>
+    </ul>
+    <div class="content-box">
+    <h3>My Project Portfolio</h3>
+    <p>Here are some of my projects:</p>
+    <a href="https://www.canva.com/design/DAGknHpNb9Y/LB0LQVikRmUqNfPpDEQJZg/view">
+        Visit My Portfolio
+    </a>
+</div>
+    <div class="content-box">
+    <h4>My Salesforce Certifications Status</h4>
+    <table class="simple-table">
+    <tr>
+        <th>Certificate  Name</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>Revenue Cloud Consultant</td>
+        <td>Achieved in October 2026</td>
+    </tr>
+    <tr>
+        <td>Data Cloud Consultant</td>
+        <td>On-Going</td>
+    </tr>
+    </table>
+    </div>
+    <h5>Connect with me</h5>
+    <p>Feel free to reach out to me via LinkedIn!</p>
+    <a href="https://www.linkedin.com/in/chau-vuong-sf/">Visit My LinkedIn Profile</a>
+    <p>Or fill in the following form to get in touch:</p>
+    <form class="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
